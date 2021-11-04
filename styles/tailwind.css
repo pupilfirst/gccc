@@ -54,10 +54,16 @@ h4 {
 }
 
 .hero__bg-pattern {
-  background-image: url(".././public/hero/GCCC-hero-map-bg.svg");
-  background-size: calc(100% - 120px);
-  background-position: center 90%;
+  background-image: url(".././public/hero/GDC-hero-map-bg.svg");
+  background-size: contain;
+  background-position: center bottom;
   @apply bg-gray-900 bg-blend-overlay;
+}
+@screen lg {
+  .hero__bg-pattern {
+    background-size: calc(100% - 120px);
+    background-position: center 90%;
+  }
 }
 .hero__title-gradient {
   @apply bg-gradient-to-br from-indigo-100 to-indigo-300;
