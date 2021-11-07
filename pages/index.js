@@ -130,15 +130,20 @@ export default function Home() {
               />
             </div>
             <div className="grid lg:grid-cols-12 gap-x-20 bg-gradient-to-br from-gray-700 to-bg-gray-700 p-4 lg:p-10 rounded-b-2xl mx-4 lg:mx-12 border border-t-0 border-gray-800">
-              <p className="lg:col-span-8 lg:text-xl leading-normal text-white">
-                CoronaSafe Network is a free and open-source disaster management
-                system that is used by National Health Mission, Government of
-                India and various state governments for reimaging digital war
-                rooms. The solution that students got an opportunity to intern
-                with has supported 3.34*Lac patient management and 1.29* Lac
-                ambulance shiftings and is approved by the United Nations as a
-                Digital Public Good.
-              </p>
+              <div className="lg:col-span-8">
+                <p className="lg:text-xl leading-normal text-white">
+                  CoronaSafe Network is a free and open-source disaster
+                  management system that is used by National Health Mission,
+                  Government of India and various state governments for
+                  reimaging digital war rooms. The solution that students got an
+                  opportunity to intern with has supported 3.34*Lac patient
+                  management and 1.29* Lac ambulance shiftings and is approved
+                  by the United Nations as a Digital Public Good.
+                </p>
+                <p className="text-xs italic pt-6 text-gray-200 pl-4 xl:pl-0">
+                  Stats as on 13<sup>th</sup> October 2021
+                </p>
+              </div>
               <div className="lg:col-span-4">
                 <div className="bg-white rounded-2xl shadow-xl p-6 mt-6 lg:-mt-20 z-10 relative border-4 border-indigo-500">
                   <img
