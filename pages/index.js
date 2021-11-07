@@ -538,7 +538,7 @@ export default function Home() {
             <div className="grid grid-cols-2 rounded-full max-w-7xl mx-auto">
               <div className="col-span-1 text-center programme-link relative z-0 ">
                 <a
-                  className="block p-4 rounded-l-full border border-gray-800 bg-indigo-900 text-indigo-300 text-sm md:text-lg lg:text-xl font-medium bg-opacity-20 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                  className="block p-4 rounded-l-full border border-gray-800 bg-gray-900 hover:bg-indigo-900 hover:bg-opacity-30 focus:bg-indigo-900 active:bg-indigo-900 focus:text-indigo-300 text-sm md:text-lg lg:text-xl font-medium bg-opacity-20 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
                   href="#programme-1"
                 >
                   <span className="block text-xs lg:hidden uppercase">
@@ -551,7 +551,7 @@ export default function Home() {
               </div>
               <div className="col-span-1 text-center programme-link ">
                 <a
-                  className="block p-4 -ml-px rounded-r-full border border-gray-800 text-sm md:text-lg lg:text-xl font-medium focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                  className="block p-4 -ml-px rounded-r-full border border-gray-800  bg-gray-900 hover:bg-indigo-900 hover:bg-opacity-30 focus:bg-indigo-900 active:bg-indigo-900 focus:text-indigo-300 text-sm md:text-lg lg:text-xl font-medium bg-opacity-20 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
                   href="#programme-2"
                 >
                   <span className="block text-xs lg:hidden uppercase">
@@ -692,9 +692,13 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="px-4 lg:px-16 lg:pb-10 mt-4 lg:mt-0">
-                      <button className="bg-green-600 rounded-full w-full text-base lg:text-xl text-white font-semibold p-3 lg:px-6 lg:py-4 border border-transparent shadow-sm hover:bg-green-700 focus:outline-none focus:bg-green-500 focus:ring-2 focus:ring-offset-2 focus:ring-green-700">
-                        Apply Now
-                      </button>
+                      <a
+                        href="https://fullstack.gdc.network/"
+                        target="_blank"
+                        className="block text-center bg-green-600 rounded-full w-full text-base lg:text-xl text-white font-semibold p-3 lg:px-6 lg:py-4 border border-transparent shadow-sm hover:bg-green-700 focus:outline-none focus:bg-green-500 focus:ring-2 focus:ring-offset-2 focus:ring-green-700"
+                      >
+                        Learn More
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -826,9 +830,13 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="px-4 lg:px-16 lg:pb-10 mt-4 lg:mt-0">
-                      <button className="bg-indigo-500 rounded-full w-full text-white font-semibold text-base lg:text-xl p-3 lg:px-6 lg:py-4 border border-transparent shadow-sm hover:bg-indigo-700 focus:outline-none focus:bg-indigo-500 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700">
-                        Apply Now
-                      </button>
+                      <a
+                        href="https://bharat.gdc.network/"
+                        target="_blank"
+                        className="block text-center bg-indigo-500 rounded-full w-full text-white font-semibold text-base lg:text-xl p-3 lg:px-6 lg:py-4 border border-transparent shadow-sm hover:bg-indigo-700 focus:outline-none focus:bg-indigo-500 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700"
+                      >
+                        Learn More
+                      </a>
                     </div>
                   </div>
                 </div>
