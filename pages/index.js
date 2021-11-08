@@ -52,19 +52,19 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
-        <meta property="og:title" content="Bharat FieldOps Fellowship!" />
+        <meta property="og:title" content="Global Digital Corps Programme" />
         <meta
           property="og:description"
           content="An international programme to train top students to create and maintain digital public goods for sustainable development"
         />
         <meta
           property="og:image"
-          content="coronasafe-engineering-fellowship.png"
+          content="Global-Digital-Corps-Programme.png"
         />
         <meta property="og:url" content="https://fullstack.pupilfirst.org/" />
         <meta
           name="twitter:card"
-          content="coronasafe-engineering-fellowship.png"
+          content="Global-Digital-Corps-Programme.png"
         />
         <meta
           property="og:site_name"
@@ -89,12 +89,12 @@ export default function Home() {
       </Head>
       <main className="bg-gray-900 mx-auto ">
         <section className="hero__bg-pattern lg:bg-fixed bg-no-repeat lg:h-screen bg-gradient-to-br from-gray-800 to-gray-900 lg:pb-64 shadow-inner">
-          <header className="max-w-7xl mx-auto py-4 lg:py-8 px-4 xl:px-0">
+          <header className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 lg:py-8 px-4 xl:px-0">
             <div className="flex justify-center items-center">
               <img className="block w-48 md:w-64" src="logos/GDC-logo.svg" />
             </div>
           </header>
-          <div className="max-w-7xl 2xl:max-w-screen-2xl flex flex-col md:flex-row items-center justify-between mx-auto text-white pt-12 lg:pt-24 2xl:pt-44 pb-12 px-4 xl:px-0">
+          <div className="max-w-6xl 2xl:max-w-7xl flex flex-col md:flex-row items-center justify-between mx-auto text-white pt-12 lg:pt-24 2xl:pt-44 pb-12 px-4 xl:px-0">
             <div className="mx-auto">
               <div className="w-full relative z-10 text-center">
                 <h1 className="hero__title-gradient text-4xl md:text-5xl lg:text-8xl 2xl:text-9xl font-extrabold lg:leading-tight 2xl:leading-tight lg:pt-4">
@@ -107,6 +107,14 @@ export default function Home() {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="absolute inset-0 z-0">
+            <img
+              className="h-full w-full object-cover relative"
+              src="hero/hero-bg.webp"
+              alt="LITE - hero background image"
+            />
+            <div className="absolute inset-0"></div>
           </div>
         </section>
 
@@ -132,13 +140,26 @@ export default function Home() {
             <div className="grid lg:grid-cols-12 gap-x-20 bg-gradient-to-br from-gray-700 to-bg-gray-700 p-4 lg:p-10 rounded-b-2xl mx-4 lg:mx-12 border border-t-0 border-gray-800">
               <div className="lg:col-span-8">
                 <p className="lg:text-xl leading-normal text-white">
-                  CoronaSafe Network is a free and open-source disaster
-                  management system that is used by National Health Mission,
-                  Government of India and various state governments for
-                  reimaging digital war rooms. The solution that students got an
-                  opportunity to intern with has supported 3.34*Lac patient
-                  management and 1.29* Lac ambulance shiftings and is approved
-                  by the United Nations as a Digital Public Good.
+                  <a
+                    className="text-indigo-400 underline hover:bg-gray-900 hover:bg-opacity-40 transition"
+                    target="_blank"
+                    href="https://coronasafe.network/"
+                  >
+                    CoronaSafe Network
+                  </a>{" "}
+                  is a free and open-source disaster management system that is
+                  used by National Health Mission, Government of India and
+                  various state governments for reimaging digital war rooms. The
+                  solution that students got an opportunity to intern with has
+                  supported 3.34*Lac patient management and 1.29* Lac ambulance
+                  shiftings and is approved by the United Nations as a{" "}
+                  <a
+                    className="text-indigo-400 underline hover:bg-gray-900 hover:bg-opacity-40 transition"
+                    target="_blank"
+                    href="https://digitalpublicgoods.net/"
+                  >
+                    Digital Public Good.
+                  </a>
                 </p>
                 <p className="text-xs italic pt-6 text-gray-200 pl-4 xl:pl-0">
                   Stats as on 13<sup>th</sup> October 2021
@@ -157,7 +178,7 @@ export default function Home() {
           </div>
         </section>
         <section className="relative border-t border-gray-800 bg-gray-900 px-4 py-8 lg:py-24">
-          <div className="lg:grid grid-cols-12 gap-12 2xl:gap-24 max-w-7xl 2xl:max-w-screen-2xl mx-auto">
+          <div className="lg:grid grid-cols-12 gap-12 2xl:gap-24 max-w-6xl 2xl:max-w-7xl mx-auto">
             <h2 className="col-span-6 relative pt-3 lg:pt-8 before:block before:absolute before:w-20 before:h-1 lg:before:h-2 before:bg-indigo-500 before:left-0 before:top-0 max-w-4xl text-secondary-200 font-black text-2xl lg:text-5xl lg:leading-tight">
               Accelerate Digital Transformation for Governments
             </h2>
@@ -179,7 +200,7 @@ export default function Home() {
           </div>
         </section>
         <section className="relative border-t border-gray-800 bg-gray-800 px-4">
-          <div className="lg:grid grid-cols-1 lg:grid-cols-12 gap-8 max-w-7xl 2xl:max-w-screen-2xl mx-auto">
+          <div className="lg:grid grid-cols-1 lg:grid-cols-12 gap-8 max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="col-span-1 lg:col-span-4">
               <div className="lg:sticky top-0 pt-8 lg:py-24">
                 <h2 className="col-span-4 relative pt-3 lg:pt-8 before:block before:absolute before:w-20 before:h-1 lg:before:h-2 before:bg-indigo-500 before:left-0 before:top-0 max-w-4xl text-secondary-200 font-black text-2xl lg:text-5xl lg:leading-tight">
@@ -224,7 +245,7 @@ export default function Home() {
           </div>
         </section>
         <section className="relative border-t border-gray-700 bg-gray-900 px-4 py-8 lg:py-24">
-          <div className="lg:grid grid-cols-12 gap-8 max-w-7xl 2xl:max-w-screen-2xl mx-auto">
+          <div className="lg:grid grid-cols-12 gap-8 max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="lg:sticky top-0 col-span-4">
               <h2 className="relative pt-3 lg:pt-8 before:block before:absolute before:w-20 before:h-1 lg:before:h-2 before:bg-indigo-500 before:left-0 before:top-0 max-w-4xl text-secondary-200 font-black text-2xl lg:text-5xl lg:leading-tight">
                 Supported By:
@@ -233,11 +254,11 @@ export default function Home() {
             <div className="col-span-8 text-white text-xl leading-normal pt-6">
               <div className="bg-white rounded-lg py-12 px-4 sm:px-6 lg:px-8 grid grid-cols-2 gap-y-8 lg:gap-y-0 gap-4 md:grid-cols-3 lg:grid-cols-4">
                 <div className="flex justify-center">
-                  <div className="w-48 flex items-center">
+                  <div className="w-24 flex items-center">
                     <img
                       className="object-contain w-full"
-                      src="logos/NSTEDB-logo.svg"
-                      alt="National Science and Technology Entrepreneurship Development Board"
+                      src="logos/e-gov-foun-logo.png"
+                      alt="Logo of e-gov foundation"
                     />
                   </div>
                 </div>
@@ -245,17 +266,17 @@ export default function Home() {
                   <div className="w-40 flex items-center">
                     <img
                       className="object-contain w-full"
-                      src="logos/act-grants-logo.png"
-                      alt="Act grants - Action COVID-19 Team"
+                      src="logos/pupilfirst-logo.svg"
+                      alt="Logo of Pupilfirst"
                     />
                   </div>
                 </div>
                 <div className="flex justify-center">
-                  <div className="w-36 flex items-center">
+                  <div className="w-24 flex items-center">
                     <img
                       className="object-contain w-full"
-                      src="logos/swasth.svg"
-                      alt="Swasth Alliance"
+                      src="logos/Schmidt-Futures-Logo.png"
+                      alt="Logo of Schmidt Futures"
                     />
                   </div>
                 </div>
@@ -263,8 +284,8 @@ export default function Home() {
                   <div className="w-40 flex items-center">
                     <img
                       className="object-contain"
-                      src="logos/pupilfirst-logo.svg"
-                      alt="Pupilfirst"
+                      src="logos/facebook-company-logo.svg"
+                      alt="Logo of Facebook"
                     />
                   </div>
                 </div>
@@ -273,7 +294,7 @@ export default function Home() {
           </div>
         </section>
         <section className="relative border-t border-gray-700 bg-gray-900 px-4">
-          <div className="lg:grid grid-cols-12 gap-8 max-w-7xl 2xl:max-w-screen-2xl mx-auto">
+          <div className="lg:grid grid-cols-12 gap-8 max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="col-span-4">
               <div className="lg:sticky top-0 pt-8 lg:py-24">
                 <h2 className="relative pt-3 lg:pt-8 before:block before:absolute before:w-20 before:h-1 lg:before:h-2 before:bg-indigo-500 before:left-0 before:top-0 max-w-4xl text-secondary-200 font-black text-2xl lg:text-5xl lg:leading-tight">
@@ -301,7 +322,7 @@ export default function Home() {
                     <img
                       className="object-contain rounded-full"
                       src="people/GDC-fellows-2021/Abhinandan.png"
-                      alt="Pupilfirst"
+                      alt="Photograph of Abhinandan Arya"
                     />
                   </div>
                   <p className="text-xl font-semibold pt-3">Abhinandan Arya</p>
@@ -314,7 +335,7 @@ export default function Home() {
                     <img
                       className="object-contain rounded-full"
                       src="people/GDC-fellows-2021/Apurva.png"
-                      alt="Pupilfirst"
+                      alt="Photograph of Apurva Nagar"
                     />
                   </div>
                   <p className="text-xl font-semibold pt-3">Apurva Nagar</p>
@@ -327,7 +348,7 @@ export default function Home() {
                     <img
                       className="object-contain rounded-full"
                       src="people/GDC-fellows-2021/Amith-Kumar.png"
-                      alt="Pupilfirst"
+                      alt="Photograph of Amit Kumar"
                     />
                   </div>
                   <p className="text-xl font-semibold pt-3">Amit Kumar</p>
@@ -341,7 +362,7 @@ export default function Home() {
                     <img
                       className="object-contain rounded-full"
                       src="people/GDC-fellows-2021/Arpan.png"
-                      alt="Pupilfirst"
+                      alt="Photograph of Arpan Abhishek"
                     />
                   </div>
                   <p className="text-xl font-semibold pt-3">Arpan Abhishek</p>
@@ -354,7 +375,7 @@ export default function Home() {
                     <img
                       className="object-contain rounded-full"
                       src="people/GDC-fellows-2021/Divya-Garg.png"
-                      alt="Pupilfirst"
+                      alt="Photograph of Divya garg"
                     />
                   </div>
                   <p className="text-xl font-semibold pt-3">Divya garg</p>
@@ -367,7 +388,7 @@ export default function Home() {
                     <img
                       className="object-contain rounded-full"
                       src="people/GDC-fellows-2021/Karan.png"
-                      alt="Pupilfirst"
+                      alt="Photograph of Karan Sanjeev Nair"
                     />
                   </div>
                   <p className="text-xl font-semibold pt-3">
@@ -383,7 +404,7 @@ export default function Home() {
                     <img
                       className="object-contain rounded-full"
                       src="people/GDC-fellows-2021/Khavin.png"
-                      alt="Pupilfirst"
+                      alt="Photograph of Khavin Shankar G"
                     />
                   </div>
                   <p className="text-xl font-semibold pt-3">Khavin Shankar G</p>
@@ -394,7 +415,7 @@ export default function Home() {
                     <img
                       className="object-contain rounded-full"
                       src="people/GDC-fellows-2021/Peeyush-Goyal.png"
-                      alt="Pupilfirst"
+                      alt="Photograph of Peeyush Goyal"
                     />
                   </div>
                   <p className="text-xl font-semibold pt-3">Peeyush Goyal</p>
@@ -408,7 +429,7 @@ export default function Home() {
                     <img
                       className="object-contain rounded-full"
                       src="people/GDC-fellows-2021/Pradipta-Ghoshal.png"
-                      alt="Pupilfirst"
+                      alt="Photograph of Pradipta Ghoshal"
                     />
                   </div>
                   <p className="text-xl font-semibold pt-3">Pradipta Ghoshal</p>
@@ -422,7 +443,7 @@ export default function Home() {
                     <img
                       className="object-contain rounded-full"
                       src="people/GDC-fellows-2021/Samyukyha.png"
-                      alt="Pupilfirst"
+                      alt="Photograph of Samyuktha Ganeshkumar"
                     />
                   </div>
                   <p className="text-xl font-semibold pt-3">
@@ -437,7 +458,7 @@ export default function Home() {
                     <img
                       className="object-contain rounded-full"
                       src="people/GDC-fellows-2021/Sandra.png"
-                      alt="Pupilfirst"
+                      alt="Photograph of Sandra Kakkarayil Jayakumar"
                     />
                   </div>
                   <p className="text-xl font-semibold pt-3">
@@ -452,7 +473,7 @@ export default function Home() {
                     <img
                       className="object-contain rounded-full"
                       src="people/GDC-fellows-2021/Shailesh.png"
-                      alt="Pupilfirst"
+                      alt="Photograph of Shailesh Aanand"
                     />
                   </div>
                   <p className="text-xl font-semibold pt-3">Shailesh Aanand</p>
@@ -466,7 +487,7 @@ export default function Home() {
                     <img
                       className="object-contain rounded-full"
                       src="people/GDC-fellows-2021/Shri-Hari-L.png"
-                      alt="Pupilfirst"
+                      alt="Photograph of Shri Hari L"
                     />
                   </div>
                   <p className="text-xl font-semibold pt-3">Shri Hari L</p>
@@ -479,7 +500,7 @@ export default function Home() {
                     <img
                       className="object-contain rounded-full"
                       src="people/GDC-fellows-2021/Swapnil.png"
-                      alt="Pupilfirst"
+                      alt="Photograph of Swapnil Jagtap"
                     />
                   </div>
                   <p className="text-xl font-semibold pt-3">Swapnil Jagtap</p>
@@ -492,7 +513,7 @@ export default function Home() {
           </div>
         </section>
         <section className="relative border-t border-gray-800 bg-gray-900 px-4 pt-8 lg:pt-0">
-          <div className="lg:grid grid-cols-12 gap-8 max-w-7xl 2xl:max-w-screen-2xl mx-auto">
+          <div className="lg:grid grid-cols-12 gap-8 max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="col-span-4">
               <div className="lg:sticky top-0 lg:py-24">
                 <h2 className="col-span-4 relative pt-3 lg:pt-8 before:block before:absolute before:w-20 before:h-1 lg:before:h-2 before:bg-indigo-500 before:left-0 before:top-0 max-w-4xl text-secondary-200 font-black text-2xl lg:text-5xl lg:leading-tight">
@@ -520,7 +541,7 @@ export default function Home() {
           </div>
         </section>
         <section className="relative border-t border-gray-800 bg-gray-900 px-4">
-          <div className="lg:grid grid-cols-12 gap-8 max-w-7xl 2xl:max-w-screen-2xl mx-auto">
+          <div className="lg:grid grid-cols-12 gap-8 max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="col-span-4">
               <div className="lg:sticky top-0 pt-8 lg:py-24">
                 <h2 className="col-span-4 relative pt-3 lg:pt-8 before:block before:absolute before:w-20 before:h-1 lg:before:h-2 before:bg-indigo-500 before:left-0 before:top-0 max-w-4xl text-secondary-200 font-black text-2xl lg:text-5xl lg:leading-tight">
@@ -540,7 +561,7 @@ export default function Home() {
         </section>
         <div className="relative">
           <div className="sticky top-0 bg-gray-900 text-white z-10 mt-12">
-            <div className="grid grid-cols-2 rounded-full max-w-7xl mx-auto">
+            <div className="grid grid-cols-2 rounded-full max-w-6xl 2xl:max-w-7xl mx-auto">
               <div className="col-span-1 text-center programme-link relative z-0 ">
                 <a
                   className="block p-4 rounded-l-full border border-gray-800 bg-gray-900 hover:bg-indigo-900 hover:bg-opacity-30 focus:bg-indigo-900 active:bg-indigo-900 focus:text-indigo-300 text-sm md:text-lg lg:text-xl font-medium bg-opacity-20 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
@@ -570,7 +591,7 @@ export default function Home() {
             </div>
           </div>
           <section id="programme-1" className="relative bg-gray-900 px-4">
-            <div className="max-w-7xl 2xl:max-w-8xl mx-auto">
+            <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
               <div className="pt-14 lg:pt-20">
                 <p className="text-sm lg:text-lg uppercase text-gray-400 font-semibold tracking-wide">
                   Programme 1
@@ -696,13 +717,20 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
-                    <div className="px-4 lg:px-16 lg:pb-10 mt-4 lg:mt-0">
+                    <div className="flex space-x-4 lg:space-x-6 px-4 lg:px-16 lg:pb-10 mt-4 lg:mt-0">
                       <a
                         href="https://fullstack.gdc.network/"
                         target="_blank"
-                        className="block text-center bg-green-600 rounded-full w-full text-base lg:text-xl text-white font-semibold p-3 lg:px-6 lg:py-4 border border-transparent shadow-sm hover:bg-green-700 focus:outline-none focus:bg-green-500 focus:ring-2 focus:ring-offset-2 focus:ring-green-700"
+                        className="block text-center bg-gray-900 border border-green-500 text-green-500 rounded-lg w-full text-base lg:text-xl font-semibold p-3 lg:px-6 lg:py-4 shadow-sm hover:bg-green-700 focus:outline-none focus:bg-green-500 focus:ring-2 focus:ring-offset-2 focus:ring-green-700"
                       >
                         Learn More
+                      </a>
+                      <a
+                        href="https://apply.gdc.network/"
+                        target="_blank"
+                        className="block text-center bg-green-600 rounded-lg w-full text-base lg:text-xl text-white font-semibold p-3 lg:px-6 lg:py-4 border border-transparent shadow-sm hover:bg-green-700 focus:outline-none focus:bg-green-500 focus:ring-2 focus:ring-offset-2 focus:ring-green-700"
+                      >
+                        Apply Now
                       </a>
                     </div>
                   </div>
@@ -714,7 +742,7 @@ export default function Home() {
             id="programme-2"
             className="relative border-t border-gray-800 bg-gray-900 px-4"
           >
-            <div className="max-w-7xl 2xl:max-w-8xl mx-auto">
+            <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
               <div className="pt-14 lg:pt-20">
                 <p className="text-sm lg:text-lg uppercase text-gray-400 font-semibold tracking-wide">
                   Programme 2
@@ -834,14 +862,21 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
-                    <div className="px-4 lg:px-16 lg:pb-10 mt-4 lg:mt-0">
+                    <div className="flex space-x-4 lg:space-x-6 px-4 lg:px-16 lg:pb-10 mt-4 lg:mt-0">
                       <a
                         href="https://bharat.gdc.network/"
                         target="_blank"
-                        className="block text-center bg-indigo-500 rounded-full w-full text-white font-semibold text-base lg:text-xl p-3 lg:px-6 lg:py-4 border border-transparent shadow-sm hover:bg-indigo-700 focus:outline-none focus:bg-indigo-500 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700"
+                        className="block text-center bg-gray-900 border border-indigo-400 text-indigo-400 rounded-lg w-full font-semibold text-base lg:text-xl p-3 lg:px-6 lg:py-4 shadow-sm hover:text-indigo-100 hover:bg-indigo-900 focus:outline-none focus:bg-indigo-900 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 transition"
                       >
                         Learn More
                       </a>
+                      {/* <a
+                        href="https://bharat.gdc.network/"
+                        target="_blank"
+                        className="block text-center bg-indigo-500 rounded-lg w-full text-white font-semibold text-base lg:text-xl p-3 lg:px-6 lg:py-4 border border-transparent shadow-sm hover:bg-indigo-700 focus:outline-none focus:bg-indigo-500 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 transition"
+                      >
+                        Apply Now
+                      </a> */}
                     </div>
                   </div>
                 </div>
