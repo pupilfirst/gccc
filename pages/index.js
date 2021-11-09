@@ -49,13 +49,13 @@ export default function Home() {
           const id = entry.target.getAttribute("id");
           if (entry.isIntersecting) {
             document
-              .querySelector(`.home__programme-nav-item a[href="#${id}"]`)
-              .parentElement.classList.add("home__programme-nav-item--active");
+              .querySelector(`.home-programme__nav-item a[href="#${id}"]`)
+              .parentElement.classList.add("home-programme__nav-item--active");
           } else {
             document
-              .querySelector(`.home__programme-nav-item a[href="#${id}"]`)
+              .querySelector(`.home-programme__nav-item a[href="#${id}"]`)
               .parentElement.classList.remove(
-                "home__programme-nav-item--active"
+                "home-programme__nav-item--active"
               );
           }
         });
@@ -591,11 +591,8 @@ export default function Home() {
         <div className="relative">
           <div className="sticky top-0 bg-gray-900 text-white z-10 mt-12">
             <div className="grid grid-cols-2 rounded-full max-w-6xl 2xl:max-w-7xl mx-auto">
-              <div className="home__programme-nav-item col-span-1 text-center programme-link relative z-0 ">
-                <a
-                  className="block p-4 rounded-l-full border border-gray-800 bg-gray-900 hover:bg-indigo-900 hover:bg-opacity-30 focus:bg-indigo-900 active:bg-indigo-900 focus:text-indigo-300 text-sm md:text-lg lg:text-xl font-medium bg-opacity-20 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
-                  href="#programme-1"
-                >
+              <div className="home-programme__nav-item rounded-l-full col-span-1 text-center relative z-0 ">
+                <a className="block p-4 rounded-l-full " href="#programme-1">
                   <span className="block text-xs lg:hidden uppercase">
                     Programme 1
                   </span>
@@ -604,9 +601,9 @@ export default function Home() {
                   </span>
                 </a>
               </div>
-              <div className="home__programme-nav-item col-span-1 text-center programme-link ">
+              <div className="home-programme__nav-item rounded-r-full col-span-1 text-center ">
                 <a
-                  className="block p-4 -ml-px rounded-r-full border border-gray-800  bg-gray-900 hover:bg-indigo-900 hover:bg-opacity-30 focus:bg-indigo-900 active:bg-indigo-900 focus:text-indigo-300 text-sm md:text-lg lg:text-xl font-medium bg-opacity-20 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500"
+                  className="block p-4 -ml-px rounded-r-full "
                   href="#programme-2"
                 >
                   <span className="block text-xs lg:hidden uppercase">

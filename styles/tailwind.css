@@ -76,3 +76,9 @@ h4 {
 .heading-with-leftborder {
   @apply relative;
 }
+.home-programme__nav-item {
+  @apply text-gray-400 border border-gray-800 bg-gray-900 hover:bg-indigo-900 hover:bg-opacity-30 focus:bg-indigo-900 active:bg-indigo-900 focus:text-indigo-300 text-sm md:text-lg lg:text-xl font-medium bg-opacity-20 focus:z-10 focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:border-indigo-500;
+}
+.home-programme__nav-item--active {
+  @apply bg-indigo-900 bg-opacity-30 text-indigo-400 z-10;
+}
