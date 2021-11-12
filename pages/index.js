@@ -333,17 +333,17 @@ export default function Home() {
             </div>
             <div className="col-span-8 text-white lg:text-xl leading-normal pt-4 lg:py-24">
               <p>
-                As citizens, we depend on government infrastructure to deliver
-                us quality services. Since the cost of creating and maintaining
-                advanced digital infrastructure is very expensive, many national
-                and state governments are unable to fully leverage the power of
-                technology for transforming the service delivery to citizens.
+              In Jan 2021, 50,482 students applied for the GDC Software Engineering Division. 
+              Out of this 24 students were selected and completed the training programme. 
+              14 students went on to successfully complete the six month internship 
+              and have been awarded the GDC fellowship.
+
               </p>
               <p className="mt-6">
-                GDC creates a well trained group of students who are proficient
-                in technology skills and field operations to build public
-                digital goods that enables governments to provide quality
-                services to citizens.
+              These 14 students worked on remote internships with Coronasafe Network
+              , working on various projects like CARE, ARIKE and LIFE. 
+              Students were supported by stipends from AICTE. 
+
               </p>
               <div className="space-y-4 sm:grid sm:grid-cols-2 xl:grid-cols-3 sm:gap-8 sm:space-y-0 lg:gap-10 pt-12 lg:pt-16">
                 <div className="bg-gray-800 p-5 rounded-xl text-center">
