@@ -541,7 +541,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="relative border-t border-gray-800 bg-gray-900 px-4 pt-8 lg:pt-0">
+        <section id="certificate" className="relative border-t border-gray-800 bg-gray-900 px-4 pt-8 lg:pt-0">
           <div className="lg:grid grid-cols-12 gap-8 max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="col-span-4">
               <div className="lg:sticky top-0 lg:py-24">
