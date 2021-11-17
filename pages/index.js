@@ -61,7 +61,7 @@ export default function Home() {
         });
       },
       {
-        rootMargin: "-50% 0px -49%",
+        rootMargin: "-50% 0px -50%",
       }
     );
 
@@ -123,17 +123,47 @@ export default function Home() {
               <img className="block w-48 md:w-64" src="logos/GDC-logo.svg" />
             </div>
           </header>
-          <div className="max-w-6xl 2xl:max-w-7xl flex flex-col md:flex-row items-center justify-between mx-auto text-white pt-12 lg:pt-24 2xl:pt-44 pb-12 px-4 xl:px-0">
+          <div className="max-w-6xl 2xl:max-w-7xl flex h-full flex-col items-center justify-center mx-auto text-white py-12 px-4 xl:px-0">
             <div className="mx-auto">
               <div className="w-full relative z-10 text-center">
-                <h1 className="hero__title-gradient text-4xl md:text-5xl lg:text-8xl 2xl:text-9xl font-extrabold lg:leading-tight 2xl:leading-tight lg:pt-4">
+                <h1 className="hero__title-gradient text-4xl md:text-5xl lg:text-8xl 2xl:text-9xl font-extrabold lg:leading-tight 2xl:leading-tight lg:pt-28 2xl:pt-36">
                   Global Digital Corps <br />
                   Programme
                 </h1>
                 <p className="text-sm md:text-base max-w-2xl mx-auto font-medium text-secondary-100 lg:text-xl pt-2 lg:pt-4 lg:pr-12">
-                  An international programme to train top students to create and
-                  maintain digital public goods for sustainable development.
+                  A programme to select and train top student developers to
+                  create and maintain digital public goods
                 </p>
+                <a
+                  href="#product-showcase"
+                  className="hidden md:inline-flex p-4 rounded-2xl mt-12 2xl:mt-24 flex-col items-center space-y-2 text-sm justify-center text-gray-200 hover:bg-indigo-900 hover:bg-opacity-50 hover:text-indigo-500 transition"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="w-8 h-8 md:w-10 md:h-10"
+                    viewBox="0 0 16 16"
+                  >
+                    <path d="M8 3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 3zm4 8a4 4 0 0 1-8 0V5a4 4 0 1 1 8 0v6zM8 0a5 5 0 0 0-5 5v6a5 5 0 0 0 10 0V5a5 5 0 0 0-5-5z" />
+                  </svg>
+                  <p>Scroll Down</p>
+                </a>
+                {/* <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4 text-white pt-4 md:pt-8">
+                  <a
+                    className="inline-block w-full md:max-w-sm bg-green-600 bg-opacity-50 font-semibold p-2 md:p-4 rounded-lg border border-green-500"
+                    href="#programme-1"
+                  >
+                    Software Engineering Fellowship Programme
+                  </a>
+                  <a
+                    className="inline-block w-full md:max-w-sm bg-indigo-800 bg-opacity-50 font-semibold p-2 md:p-4 rounded-lg border border-indigo-500"
+                    href="#programme-2"
+                  >
+                    Field Ops Fellowship Programme
+                  </a>
+                </div> */}
               </div>
             </div>
           </div>
@@ -147,7 +177,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="relative border-t border-gray-800 bg-gray-900 py-8 lg:py-24">
+        <div
+          id="product-showcase"
+          className="relative border-t border-gray-800 bg-gray-900 py-8 lg:py-24"
+        >
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <h2 className="relative mx-auto pt-3 lg:pt-8 before:block before:absolute before:w-24 before:h-1 lg:before:h-2 before:bg-indigo-500 before:left-1/2 before:-translate-x-1/2 before:top-0 max-w-4xl text-secondary-200 text-center font-black text-2xl lg:text-5xl leading-snug">
               Product Showcase
@@ -205,7 +238,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </div>
         <section className="relative border-t border-gray-800 bg-gray-900 px-4 py-8 lg:py-24">
           <div className="lg:grid grid-cols-12 gap-12 2xl:gap-24 max-w-6xl 2xl:max-w-7xl mx-auto">
             <h2 className="col-span-6 relative pt-3 lg:pt-8 before:block before:absolute before:w-20 before:h-1 lg:before:h-2 before:bg-indigo-500 before:left-0 before:top-0 max-w-4xl text-secondary-200 font-black text-2xl lg:text-5xl lg:leading-tight">
@@ -281,7 +314,7 @@ export default function Home() {
               </h2>
             </div>
             <div className="col-span-8 text-white text-xl leading-normal pt-6">
-              <div className="bg-white rounded-lg py-12 px-4 sm:px-6 lg:px-8 grid grid-cols-2 gap-y-8 lg:gap-y-0 gap-4 md:grid-cols-3 lg:grid-cols-4">
+              <div className="bg-white rounded-lg py-12 px-4 sm:px-6 lg:px-8 grid grid-cols-2 gap-y-8 lg:gap-y-0 gap-4 md:grid-cols-3">
                 <div className="flex justify-center">
                   <div className="w-24 flex items-center">
                     <img
@@ -309,15 +342,6 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div className="flex justify-center">
-                  <div className="w-40 flex items-center">
-                    <img
-                      className="object-contain"
-                      src="logos/facebook-company-logo.svg"
-                      alt="Logo of Facebook"
-                    />
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -333,17 +357,16 @@ export default function Home() {
             </div>
             <div className="col-span-8 text-white lg:text-xl leading-normal pt-4 lg:py-24">
               <p>
-              In Jan 2021, 50,482 students applied for the GDC Software Engineering Division. 
-              Out of this 24 students were selected and completed the training programme. 
-              14 students went on to successfully complete the six month internship 
-              and have been awarded the GDC fellowship.
-
+                In Jan 2021, 50,482 students applied for the GDC Software
+                Engineering Division. Out of this 24 students were selected and
+                completed the training programme. 14 students went on to
+                successfully complete the six month internship and have been
+                awarded the GDC fellowship.
               </p>
               <p className="mt-6">
-              These 14 students worked on remote internships with Coronasafe Network
-              , working on various projects like CARE, ARIKE and LIFE. 
-              Students were supported by stipends from AICTE. 
-
+                These 14 students worked on remote internships with Coronasafe
+                Network , working on various projects like CARE, ARIKE and LIFE.
+                Students were supported by stipends from AICTE.
               </p>
               <div className="space-y-4 sm:grid sm:grid-cols-2 xl:grid-cols-3 sm:gap-8 sm:space-y-0 lg:gap-10 pt-12 lg:pt-16">
                 <div className="bg-gray-800 p-5 rounded-xl text-center">
@@ -541,7 +564,10 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="certificate" className="relative border-t border-gray-800 bg-gray-900 px-4 pt-8 lg:pt-0">
+        <div
+          id="certificate"
+          className="relative border-t border-gray-800 bg-gray-900 px-4 pt-8 lg:pt-0"
+        >
           <div className="lg:grid grid-cols-12 gap-8 max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="col-span-4">
               <div className="lg:sticky top-0 lg:py-24">
@@ -568,7 +594,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </div>
         <section className="relative border-t border-gray-800 bg-gray-900 px-4">
           <div className="lg:grid grid-cols-12 gap-8 max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="col-span-4">
@@ -766,7 +792,7 @@ export default function Home() {
           </section>
           <section
             id="programme-2"
-            className="relative border-t border-gray-800 bg-gray-900 px-4"
+            className="programme relative border-t border-gray-800 bg-gray-900 px-4"
           >
             <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
               <div className="pt-14 lg:pt-20">
