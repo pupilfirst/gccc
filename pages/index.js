@@ -118,25 +118,80 @@ export default function Home() {
       </Head>
       <main className="bg-gray-900 mx-auto ">
         <section className="hero__bg-pattern lg:bg-fixed bg-no-repeat lg:h-screen bg-gradient-to-br from-gray-800 to-gray-900 lg:pb-64 shadow-inner">
-          <header className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 lg:py-8 px-4 xl:px-0">
+          {/* <header className="max-w-6xl 2xl:max-w-7xl mx-auto py-4 lg:py-8 px-4 xl:px-0">
             <div className="flex justify-center items-center">
               <img className="block w-48 md:w-64" src="logos/GDC-logo.svg" />
             </div>
-          </header>
-          <div className="max-w-6xl 2xl:max-w-7xl flex h-full flex-col items-center justify-center mx-auto text-white py-12 px-4 xl:px-0">
+          </header> */}
+          <div className="max-w-6xl 2xl:max-w-7xl flex flex-col items-center justify-between mx-auto text-white py-4 px-4 xl:px-0">
             <div className="mx-auto">
               <div className="w-full relative z-10 text-center">
-                <h1 className="hero__title-gradient text-4xl md:text-5xl lg:text-8xl 2xl:text-9xl font-extrabold lg:leading-tight 2xl:leading-tight lg:pt-28 2xl:pt-36">
+                <header className="mx-auto py-4 lg:py-8 px-4 xl:px-0">
+                  <div className="flex justify-center items-center">
+                    <img
+                      className="block w-48 md:w-64"
+                      src="logos/GDC-logo.svg"
+                    />
+                  </div>
+                </header>
+                <h1 className="hero__title-gradient text-4xl md:text-5xl lg:text-8xl 2xl:text-9xl font-extrabold lg:leading-tight 2xl:leading-tight pt-4 2xl:pt-12">
                   Global Digital Corps <br />
                   Programme
                 </h1>
-                <p className="text-sm md:text-base max-w-2xl mx-auto font-medium text-secondary-100 lg:text-xl pt-2 lg:pt-4 lg:pr-12">
+                <p className="text-base lg:text-xl max-w-2xl mx-auto font-medium text-secondary-100 pt-2 lg:pt-4">
                   A programme to select and train top student developers to
                   create and maintain digital public goods
                 </p>
+                <div className="pt-8 2xl:pt-12">
+                  <div className="bg-white rounded-lg shadow-md max-w-6xl 2xl:max-w-7xl mx-auto pb-10 px-4 sm:px-6 lg:px-8">
+                    <div className="flex justify-center text-center">
+                      <p className="text-xs leading-tight text-center px-4 py-2 rounded-b-lg bg-gray-100 text-gray-800 shadow-inner">
+                        Supported By
+                      </p>
+                    </div>
+                    <div className="grid grid-cols-2 gap-y-8 lg:gap-y-0 gap-4 md:grid-cols-4 pt-7">
+                      <div className="flex justify-center">
+                        <div className="w-48 flex items-center">
+                          <img
+                            className="object-contain"
+                            src="logos/aicte.png"
+                            alt="AICTE"
+                          />
+                        </div>
+                      </div>
+                      <div className="flex justify-center">
+                        <div className="w-36 flex items-center">
+                          <img
+                            className="object-contain"
+                            src="logos/pupilfirst-logo.svg"
+                            alt="Pupilfirst"
+                          />
+                        </div>
+                      </div>
+                      <div className="flex justify-center">
+                        <div className="w-24 flex items-center">
+                          <img
+                            className="object-contain"
+                            src="logos/Schmidt-Futures-Logo.png"
+                            alt="Schmidt Futures"
+                          />
+                        </div>
+                      </div>
+                      <div className="flex justify-center">
+                        <div className="w-24 flex items-center">
+                          <img
+                            className="object-contain"
+                            src="logos/e-gov-foun-logo.png"
+                            alt="e gov foundation"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <a
                   href="#product-showcase"
-                  className="hidden md:inline-flex p-4 rounded-2xl mt-12 2xl:mt-24 flex-col items-center space-y-2 text-sm justify-center text-gray-200 hover:bg-indigo-900 hover:bg-opacity-50 hover:text-indigo-500 transition"
+                  className="hidden md:inline-flex p-4 rounded-2xl mt-4 2xl:mt-8 flex-col items-center space-y-2 text-sm justify-center text-gray-200 hover:bg-indigo-900 hover:bg-opacity-50 hover:text-indigo-500 transition"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -179,7 +234,7 @@ export default function Home() {
 
         <div
           id="product-showcase"
-          className="relative border-t border-gray-800 bg-gray-900 py-8 lg:py-24"
+          className="relative bg-gray-900 py-8 lg:py-24 border-t border-gray-800"
         >
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <h2 className="relative mx-auto pt-3 lg:pt-8 before:block before:absolute before:w-24 before:h-1 lg:before:h-2 before:bg-indigo-500 before:left-1/2 before:-translate-x-1/2 before:top-0 max-w-4xl text-secondary-200 text-center font-black text-2xl lg:text-5xl leading-snug">
@@ -302,46 +357,6 @@ export default function Home() {
                   caption={<>Ex CHRO, Cleartrip</>}
                   imgSrc="people/instructors/Prasad-Menon.png"
                 />
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="relative border-t border-gray-700 bg-gray-900 px-4 py-8 lg:py-24">
-          <div className="lg:grid grid-cols-12 gap-8 max-w-6xl 2xl:max-w-7xl mx-auto">
-            <div className="lg:sticky top-0 col-span-4">
-              <h2 className="relative pt-3 lg:pt-8 before:block before:absolute before:w-20 before:h-1 lg:before:h-2 before:bg-indigo-500 before:left-0 before:top-0 max-w-4xl text-secondary-200 font-black text-2xl lg:text-5xl lg:leading-tight">
-                Supported By:
-              </h2>
-            </div>
-            <div className="col-span-8 text-white text-xl leading-normal pt-6">
-              <div className="bg-white rounded-lg py-12 px-4 sm:px-6 lg:px-8 grid grid-cols-2 gap-y-8 lg:gap-y-0 gap-4 md:grid-cols-3">
-                <div className="flex justify-center">
-                  <div className="w-24 flex items-center">
-                    <img
-                      className="object-contain w-full"
-                      src="logos/e-gov-foun-logo.png"
-                      alt="Logo of e-gov foundation"
-                    />
-                  </div>
-                </div>
-                <div className="flex justify-center">
-                  <div className="w-40 flex items-center">
-                    <img
-                      className="object-contain w-full"
-                      src="logos/pupilfirst-logo.svg"
-                      alt="Logo of Pupilfirst"
-                    />
-                  </div>
-                </div>
-                <div className="flex justify-center">
-                  <div className="w-24 flex items-center">
-                    <img
-                      className="object-contain w-full"
-                      src="logos/Schmidt-Futures-Logo.png"
-                      alt="Logo of Schmidt Futures"
-                    />
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -727,7 +742,7 @@ export default function Home() {
                 </div>
                 <div className="lg:col-span-6 border-l border-t border-gray-800 rounded-l-2xl mt-4 lg:mt-20">
                   <div className="lg:sticky top-0">
-                    <div className="grid grid-cols-2 gap-x-8 gap-y-8 lg:gap-y-12 p-4 lg:p-16 tracking-wide">
+                    <div className="grid grid-cols-2 gap-x-8 gap-y-8 lg:gap-y-12 p-4 lg:p-10 2xl:p-16 tracking-wide">
                       <div className="col-span-1 text-white">
                         <p className="text-xs lg:text-lg uppercase text-gray-400 font-semibold">
                           Level:
@@ -769,7 +784,7 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
-                    <div className="flex space-x-4 lg:space-x-6 px-4 lg:px-16 lg:pb-10 mt-4 lg:mt-0">
+                    <div className="flex space-x-4 lg:space-x-6 px-4 lg:px-10 2xl:px-16 lg:pb-10 mt-4 lg:mt-0">
                       <a
                         href="https://fullstack.gdc.network/"
                         target="_blank"
@@ -872,7 +887,7 @@ export default function Home() {
                 </div>
                 <div className="lg:col-span-6 border-l border-t border-gray-800 rounded-l-2xl mt-4 lg:mt-20">
                   <div className="lg:sticky top-0">
-                    <div className="grid grid-cols-2 gap-x-8 gap-y-8 lg:gap-y-12 p-4 lg:p-16 tracking-wide">
+                    <div className="grid grid-cols-2 gap-x-8 gap-y-8 lg:gap-y-12 p-4 lg:p-10 2xl:p-16 tracking-wide">
                       <div className="col-span-1 text-white">
                         <p className="text-xs lg:text-lg uppercase text-gray-400 font-semibold">
                           Level:
@@ -914,7 +929,7 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
-                    <div className="flex space-x-4 lg:space-x-6 px-4 lg:px-16 lg:pb-10 mt-4 lg:mt-0">
+                    <div className="flex space-x-4 lg:space-x-6 px-4 lg:px-10 2xl:px-16 lg:pb-10 mt-4 lg:mt-0">
                       <a
                         href="https://bharat.gdc.network/"
                         target="_blank"
