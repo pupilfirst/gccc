@@ -328,6 +328,13 @@ export default function Home() {
             <div className="col-span-8 text-white text-xl leading-normal py-8 lg:py-24">
               <div className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-4 md:gap-8 lg:gap-12">
                 <ImageWithDescription
+                  name="Prof Anil Sahasrabudhe"
+                  caption={
+                    <>Chairman, All India Council for Technical Education</>
+                  }
+                  imgSrc="people/instructors/Prof-Anil-Sahasrabudhe.png"
+                />
+                <ImageWithDescription
                   name="Mekin Maheshwari"
                   caption={
                     <>
