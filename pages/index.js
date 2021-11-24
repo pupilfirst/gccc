@@ -359,8 +359,8 @@ export default function Home() {
                   imgSrc="people/instructors/Srikanth.png"
                 />
                 <ImageWithDescription
-                  name="Pramod Verma"
-                  caption={<>Chief Architect, India Stack</>}
+                  name="Pramod Varma"
+                  caption={<>Chief Architect, Aadhaar & IndiaStack</>}
                   imgSrc="people/instructors/Pramod-Verma.png"
                 />
                 <ImageWithDescription
