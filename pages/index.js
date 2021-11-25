@@ -591,13 +591,13 @@ export default function Home() {
                       >
                         Learn More
                       </a>
-                      <a
+                      {/* <a
                         href="https://apply.gdc.network/"
                         target="_blank"
                         className="block text-center bg-green-600 rounded-lg w-full text-base lg:text-xl text-white font-semibold p-3 lg:px-6 lg:py-4 border border-transparent shadow-sm hover:bg-green-700 focus:outline-none focus:bg-green-500 focus:ring-2 focus:ring-offset-2 focus:ring-green-700"
                       >
                         Apply Now
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
