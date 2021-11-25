@@ -506,7 +506,7 @@ export default function Home() {
                         </li>
                         <li className="relative before:absolute before:w-3 before:h-3 before:bg-green-500 before:rounded-full before:left-0 before:top-2 pl-8">
                           Students who are in any semester of their
-                          undergraduate or postgraduate programme can apply for the Program.
+                          undergraduate or postgraduate programme can apply for the fellowship.
                         </li>
                         <li className="relative before:absolute before:w-3 before:h-3 before:bg-green-500 before:rounded-full before:left-0 before:top-2 pl-8">
                           Must have written at least some amount of code
