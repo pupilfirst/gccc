@@ -489,7 +489,7 @@ export default function Home() {
                       </h3>
                       <ul className="pt-2 md:pt-4 ml-6 lg:text-xl lg:leading-normal font-medium space-y-4 lg:space-y-6 text-secondary-50">
                         <li className="relative before:absolute before:w-3 before:h-3 before:bg-green-500 before:rounded-full before:left-0 before:top-2 pl-8">
-                          Must be a current undergraduate (Engineering) student
+                          Must be a current undergraduate or postgraduate student in any course
                           at a higher education institution in India.
                         </li>
                         <li className="relative before:absolute before:w-3 before:h-3 before:bg-green-500 before:rounded-full before:left-0 before:top-2 pl-8">
