@@ -149,13 +149,13 @@ export default function Home() {
                         Supported By
                       </p>
                     </div>
-                    <div className="grid grid-cols-2 gap-y-8 lg:gap-y-0 gap-4 md:grid-cols-4 pt-4">
+                    <div className="grid grid-cols-2 gap-y-8 lg:gap-y-0 gap-4 md:grid-cols-5 pt-4">
                       <div className="flex justify-center">
                         <div className="w-48 flex items-center">
                           <img
                             className="object-contain"
                             src="logos/aicte.png"
-                            alt="AICTE"
+                            alt="AICTE Logo"
                           />
                         </div>
                       </div>
@@ -164,7 +164,7 @@ export default function Home() {
                           <img
                             className="object-contain"
                             src="logos/pupilfirst-logo.svg"
-                            alt="Pupilfirst"
+                            alt="Pupilfirst Logo"
                           />
                         </div>
                       </div>
@@ -173,7 +173,16 @@ export default function Home() {
                           <img
                             className="object-contain"
                             src="logos/Schmidt-Futures-Logo.png"
-                            alt="Schmidt Futures"
+                            alt="Schmidt Futures Logo"
+                          />
+                        </div>
+                      </div>
+                      <div className="flex justify-center">
+                        <div className="w-14 flex items-center">
+                          <img
+                            className="object-contain"
+                            src="logos/ACT-Logo.png"
+                            alt="Act Grants Logo"
                           />
                         </div>
                       </div>
@@ -182,7 +191,7 @@ export default function Home() {
                           <img
                             className="object-contain"
                             src="logos/e-gov-foun-logo.png"
-                            alt="e gov foundation"
+                            alt="e-gov foundation Logo"
                           />
                         </div>
                       </div>
@@ -582,13 +591,13 @@ export default function Home() {
                       >
                         Learn More
                       </a>
-                      <a
+                      {/* <a
                         href="https://apply.gdc.network/"
                         target="_blank"
                         className="block text-center bg-green-600 rounded-lg w-full text-base lg:text-xl text-white font-semibold p-3 lg:px-6 lg:py-4 border border-transparent shadow-sm hover:bg-green-700 focus:outline-none focus:bg-green-500 focus:ring-2 focus:ring-offset-2 focus:ring-green-700"
                       >
                         Apply Now
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
