@@ -476,7 +476,7 @@ export default function Home() {
                       <p className="pt-2 lg:text-xl lg:leading-normal font-medium text-secondary-50">
                         GDC Software Engineering Fellowship is a national
                         programme to identify the top 40
-                        undergraduate/postgraduate or diploma students for an
+                        undergraduate/postgraduate students for an
                         industry-led training to become full stack developers
                         and contribute towards development of Digital Public
                         Goods.
@@ -506,7 +506,7 @@ export default function Home() {
                         </li>
                         <li className="relative before:absolute before:w-3 before:h-3 before:bg-green-500 before:rounded-full before:left-0 before:top-2 pl-8">
                           Students who are in any semester of their
-                          undergraduate programme can apply for the Program.
+                          undergraduate or postgraduate programme can apply for the Program.
                         </li>
                         <li className="relative before:absolute before:w-3 before:h-3 before:bg-green-500 before:rounded-full before:left-0 before:top-2 pl-8">
                           Must have written at least some amount of code
