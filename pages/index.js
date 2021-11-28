@@ -101,9 +101,9 @@ export default function Home() {
         />
         <meta name="An international programme to train top students to create and maintain digital public goods for sustainable development" />
 
-        {/* <script
+        <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-11P76BRB6N"
+          src="https://www.googletagmanager.com/gtag/js?id=G-CKCBM585DN"
         ></script>
         <script
           dangerouslySetInnerHTML={{
@@ -111,10 +111,10 @@ export default function Home() {
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-11P76BRB6N');
+                gtag('config', 'G-CKCBM585DN');
               `,
           }}
-        /> */}
+        />
       </Head>
       <main className="bg-gray-900 mx-auto ">
         <section className="hero__bg-pattern lg:bg-fixed bg-no-repeat lg:h-screen bg-gradient-to-br from-gray-800 to-gray-900 lg:pb-64 shadow-inner">
@@ -476,10 +476,9 @@ export default function Home() {
                       <p className="pt-2 lg:text-xl lg:leading-normal font-medium text-secondary-50">
                         GDC Software Engineering Fellowship is a national
                         programme to identify the top 40
-                        undergraduate/postgraduate students for an
-                        industry-led training to become full stack developers
-                        and contribute towards development of Digital Public
-                        Goods.
+                        undergraduate/postgraduate students for an industry-led
+                        training to become full stack developers and contribute
+                        towards development of Digital Public Goods.
                       </p>
                     </div>
                     <div>
@@ -498,15 +497,17 @@ export default function Home() {
                       </h3>
                       <ul className="pt-2 md:pt-4 ml-6 lg:text-xl lg:leading-normal font-medium space-y-4 lg:space-y-6 text-secondary-50">
                         <li className="relative before:absolute before:w-3 before:h-3 before:bg-green-500 before:rounded-full before:left-0 before:top-2 pl-8">
-                          Must be a current undergraduate or postgraduate student in any course
-                          at a higher education institution in India.
+                          Must be a current undergraduate or postgraduate
+                          student in any course at a higher education
+                          institution in India.
                         </li>
                         <li className="relative before:absolute before:w-3 before:h-3 before:bg-green-500 before:rounded-full before:left-0 before:top-2 pl-8">
                           Must be within the age group of 18-25.
                         </li>
                         <li className="relative before:absolute before:w-3 before:h-3 before:bg-green-500 before:rounded-full before:left-0 before:top-2 pl-8">
                           Students who are in any semester of their
-                          undergraduate or postgraduate programme can apply for the fellowship.
+                          undergraduate or postgraduate programme can apply for
+                          the fellowship.
                         </li>
                         <li className="relative before:absolute before:w-3 before:h-3 before:bg-green-500 before:rounded-full before:left-0 before:top-2 pl-8">
                           Must have written at least some amount of code
