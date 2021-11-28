@@ -207,7 +207,7 @@ export default function Home() {
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="w-8 h-8 md:w-10 md:h-10"
+                    className="w-8 h-8 md:w-10 md:h-10"
                     viewBox="0 0 16 16"
                   >
                     <path d="M8 3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 3zm4 8a4 4 0 0 1-8 0V5a4 4 0 1 1 8 0v6zM8 0a5 5 0 0 0-5 5v6a5 5 0 0 0 10 0V5a5 5 0 0 0-5-5z" />
@@ -592,13 +592,13 @@ export default function Home() {
                       >
                         Learn More
                       </a>
-                      {/* <a
+                      <a
                         href="https://apply.gdc.network/"
                         target="_blank"
                         className="block text-center bg-green-600 rounded-lg w-full text-base lg:text-xl text-white font-semibold p-3 lg:px-6 lg:py-4 border border-transparent shadow-sm hover:bg-green-700 focus:outline-none focus:bg-green-500 focus:ring-2 focus:ring-offset-2 focus:ring-green-700"
                       >
                         Apply Now
-                      </a> */}
+                      </a>
                     </div>
                   </div>
                 </div>
