@@ -584,21 +584,24 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
+                    <p className="px-4 lg:px-10 2xl:px-16 lg:pb-4 mt-4 lg:mt-0 italic font-medium text-xl text-yellow-300">
+                      Application closed !
+                    </p>
                     <div className="flex space-x-4 lg:space-x-6 px-4 lg:px-10 2xl:px-16 lg:pb-10 mt-4 lg:mt-0">
                       <a
                         href="https://fullstack.gdc.network/"
                         target="_blank"
-                        className="block text-center bg-gray-900 border border-green-500 text-green-500 rounded-lg w-full text-base lg:text-xl font-semibold p-3 lg:px-6 lg:py-4 shadow-sm hover:bg-green-700 focus:outline-none focus:bg-green-500 focus:ring-2 focus:ring-offset-2 focus:ring-green-700"
+                        className="block text-center bg-gray-900 border border-green-500 text-green-500 rounded-lg w-full text-base lg:text-xl font-semibold p-3 lg:px-6 lg:py-4 shadow-sm hover:bg-green-700 focus:outline-none focus:text-white focus:bg-green-500 focus:ring-2 focus:ring-offset-2 focus:ring-green-700"
                       >
                         Learn More
                       </a>
-                      <a
+                      {/* <a
                         href="https://apply.gdc.network/"
                         target="_blank"
                         className="block text-center bg-green-600 rounded-lg w-full text-base lg:text-xl text-white font-semibold p-3 lg:px-6 lg:py-4 border border-transparent shadow-sm hover:bg-green-700 focus:outline-none focus:bg-green-500 focus:ring-2 focus:ring-offset-2 focus:ring-green-700"
                       >
                         Apply Now
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
